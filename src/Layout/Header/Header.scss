@@ -1,0 +1,21 @@
+.header{
+  padding: 20px 0;
+
+  &__lists{
+    display: flex;
+    align-items: center;
+   column-gap: 30px;
+    font-size: 20px;
+
+  }
+  button{
+    padding: 10px 40px;
+    border: 2px solid white;
+    font-size: 18px;
+  }
+}
+.header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
