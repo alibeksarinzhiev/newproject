@@ -1,5 +1,6 @@
 import React from 'react';
 import './Login.scss'
+import {Link} from "react-router-dom";
 
 const Login = () => {
     return (
@@ -17,7 +18,10 @@ const Login = () => {
                 <button>Войти</button>
                  <div>
                      <p>Если у вас нет аккаута то </p>
-                     <button>Регистрация</button>
+                     <Link to='/register'>
+                         <button>Регистрация</button>
+                     </Link>
+
                  </div>
             </form>
         </section>

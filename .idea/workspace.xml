@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d5c8b70-5ba2-4453-b6be-baf464916fdc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Layout/Footer/Footes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/AddPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/AllPosts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/EditPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/OnePost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-    </list>
+    <list default="true" id="0d5c8b70-5ba2-4453-b6be-baf464916fdc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679742930434</updated>
       <workItem from="1679742934895" duration="63000" />
-      <workItem from="1679743007092" duration="1739000" />
+      <workItem from="1679743007092" duration="1946000" />
     </task>
     <servers />
   </component>
