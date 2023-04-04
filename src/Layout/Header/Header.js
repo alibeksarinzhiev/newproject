@@ -1,7 +1,18 @@
 import React from 'react';
 import './Header.scss'
+import {useDispatch, useSelector} from "react-redux";
+import {checkIsAuth, logout} from "../../redux/reducer/auth";
+import {toast} from "react-toastify";
 
 const Header = () => {
+    const isAuth = useSelector(checkIsAuth)
+const dispatch = useDispatch()
+    const exit=()=>{
+        dispatch(logout)
+        window.localStorage.removeItem('token')
+        toast('Вы вышли из аккаунта')
+    }
+
     return (
         <header className='header'>
             <div className="container">
@@ -11,7 +22,10 @@ const Header = () => {
                 <li>Мои посты</li>
                 <li>Добавить пост</li>
             </ul>
-            <button>Войти</button>
+                {
+                    isAuth? <button onClick={exit}>Выйти</button>:<button>Войти</button>
+                }
+
             </div>
         </header>
     );

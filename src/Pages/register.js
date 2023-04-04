@@ -1,12 +1,24 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Link} from "react-router-dom";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {registerUser} from "../redux/reducer/auth";
+import {toast} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 const Register = () => {
     const [username,setUsername]=useState('')
     const [password,setPassword]=useState('')
     const dispatch=useDispatch()
+    const {status} = useSelector(state=>state.authSlice)
+    useEffect(()=>{
+        if (status){
+            toast(status)
+        }
+    },[status])
+
+
 
     const register = ()=>{
         try {

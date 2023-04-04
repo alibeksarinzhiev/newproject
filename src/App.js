@@ -8,6 +8,7 @@ import EditPost from "./Pages/EditPost";
 import AllPosts from "./Pages/AllPosts";
 import OnePost from "./Pages/OnePost";
 import Register from "./Pages/register";
+import {ToastContainer} from "react-toastify";
 
 const App = () => {
     return (
@@ -23,6 +24,10 @@ const App = () => {
                     <Route path='register' element={<Register/>}/>
                 </Route>
             </Routes>
+            <ToastContainer position='bottom-right'/>
+
+
+
 
         </>
     );
